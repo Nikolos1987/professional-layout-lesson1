@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration:none ;
+}
+header{
+    background: black;
+    padding:17px 0 18px 0;
+}
+.container {
+    max-width:1140px;
+      margin: auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__search__link{
+    margin-right: 20px;
+}
+
+.header__burgermenu__search:not(:last-child){
+   margin-right: 20px;}
+.intro{
+    height: 768px;
+    background: #F1E4E6;
+}
+.intro__wrap__text{
+    max-width: 450px;
+    margin-right: 59px;
+       }
+.intro__wrap{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    background-image: url(image/Layer_57-removebg-preview\ 1.png);
+    background-repeat: no-repeat;
+    background-position: -228px;
+  }
+  .intro__wrap__text h1{
+      padding-left: 20px;
+      border-left: 12px solid red;
+  }
+  .intro__wrap__text__brand{
+    font-size: 48px;
+  }
+  .intro__wrap__text__fashion{
+      color: red;
+  }
+  .cards{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 30px;
+  }
+ .cards__forwooman {  display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 360px;
+     height: 260px;
+     background-image: url(image/Layer\ 43.png);
+     
+}
+.cards__formen {display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 360px;
+     height: 260px;
+     background-image: url(image/Layer\ 43.png);
+  
+}
+.cards__forkids {display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 360px;
+     height: 260px;
+     background-image: url(image/Layer\ 43.png);
+}
+.cards__accesories {
+display: flex;
+justify-content: center;
+align-items: center;
+ width: 100%;
+ height: 260px;
+ background-image: url(image/Layer\ 43.png);
+margin-top: 30px;}
+ 
